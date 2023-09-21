@@ -1,0 +1,15 @@
+/* Document style */
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html
+{
+    box-sizing: border-box;
+}
+*, *::after, *::before
+{
+    box-sizing: inherit;
+}

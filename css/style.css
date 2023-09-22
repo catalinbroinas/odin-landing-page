@@ -32,6 +32,7 @@ html
 {
     display: flex;
     justify-content: space-between;
+    padding-top: 0.5rem;
 }
 .intro
 {
@@ -73,7 +74,7 @@ html
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 1rem;
+    gap: 1.25rem;
     align-items: flex-end;
 }
 .nav-link
@@ -82,6 +83,15 @@ html
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: bolder;
+}
+.btn
+{
+    max-width: 10rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: normal;
 }
 .btn-primary
 {

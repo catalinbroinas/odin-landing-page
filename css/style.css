@@ -13,3 +13,31 @@ html
 {
     box-sizing: inherit;
 }
+
+/* Sections */
+.header
+{
+    height: 70vh;
+    background: url('../img/stamfordn-bridge.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+}
+.navbar, .intro
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 15%;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+.intro
+{
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}

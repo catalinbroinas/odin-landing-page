@@ -73,19 +73,33 @@ html
     gap: 2rem;
     margin-bottom: 2rem;
 }
-.card
-{
-    min-width: 250px;
-    height: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    flex: 1 1 20%;
-    text-align: center;
-}
 .description
 {
     padding: 4rem 20% 3rem;
     background-color: #E5E7E8;
+}
+.honor
+{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #2962FF;
+    padding: 2.5rem 5rem;
+    gap: 2rem;
+}
+.honor .body 
+{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 70%;
+}
+.honor .action
+{
+    min-width: 10rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 0 1 20%;
 }
 .flex-center
 {
@@ -117,26 +131,48 @@ html
     font-size: 1.25rem;
     font-weight: bolder;
 }
+.card
+{
+    min-width: 250px;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 20%;
+    text-align: center;
+}
 .btn
 {
-    max-width: 10rem;
+    width: 10rem;
     display: inline-block;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     cursor: pointer;
     font-weight: normal;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
 }
 .btn-primary
 {
     color: white;
     background: #3882F6;
 }
+.btn-secondary
+{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
 .btn-primary:hover,
     .btn-primary:active
     {
         background-color: #2962FF;
         font-weight: bold;
+        transition: all 1.0s ease-in-out;
+    }
+.btn-secondary:hover,
+    .btn-secondary:active
+    {
+        font-weight: bold;
+        border: 4px solid white;
         transition: all 1.0s ease-in-out;
     }
 .img-fluid
@@ -204,4 +240,18 @@ html
     text-align: right;
     font-weight: bold;
     margin-right: 0.5rem;
+}
+.honor .sub-title
+{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.honor .text
+{
+    color: #E5E7E8;
+    font-size: 1.25rem;
+    font-weight: lighter;
 }

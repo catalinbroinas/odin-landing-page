@@ -8,6 +8,7 @@
 html
 {
     box-sizing: border-box;
+    font-family: "Roboto", Arial, Verdana, Helvetica, sans-serif;
 }
 *, *::after, *::before
 {
@@ -29,7 +30,7 @@ html
 }
 .navbar, .intro
 {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 0 15%;
 }
 .navbar
@@ -213,7 +214,7 @@ html
 {
     color: white;
     font-size: 1.25rem;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
 }
 .sub-title
 {
@@ -224,7 +225,7 @@ html
 .card .text
 {
     font-size: 1.25rem;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
 }
 .card .text strong
 {

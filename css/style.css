@@ -50,6 +50,10 @@ html
 {
     padding: 3rem 20%;
 }
+.container-fluid
+{
+    padding: 0;
+}
 .row
 {
     display: flex;
@@ -67,6 +71,7 @@ html
     display: flex;
     flex-flow: row wrap;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 .card
 {
@@ -77,18 +82,10 @@ html
     flex: 1 1 20%;
     text-align: center;
 }
-.card .player
+.description
 {
-    margin-bottom: 1rem;
-}
-.card .text
-{
-    font-size: 1.25rem;
-    line-height: 1.25rem;
-}
-.card .text strong
-{
-    color: #2962FF;
+    padding: 4rem 20% 3rem;
+    background-color: #E5E7E8;
 }
 .flex-center
 {
@@ -152,6 +149,10 @@ html
     max-width: 200px;
     height: auto;
 }
+.card .player
+{
+    margin-bottom: 1rem;
+}
 
 /* Typography */
 .header .title, 
@@ -176,4 +177,29 @@ html
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
+}
+.card .text
+{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+.card .text strong
+{
+    color: #2962FF;
+}
+.description .text
+{
+    color: #1F2937;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+.description .text strong
+{
+    display: block;
+    color: black;
+    font-style: normal;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 0.5rem;
 }

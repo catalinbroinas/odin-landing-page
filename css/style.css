@@ -23,6 +23,10 @@ html
     display: flex;
     flex-flow: column;
 }
+.header .container
+{
+    padding: 0;
+}
 .navbar, .intro
 {
     background-color: rgba(0, 0, 0, 0.5);
@@ -42,6 +46,10 @@ html
     justify-content: center;
     align-items: center;
 }
+.container
+{
+    padding: 3rem 20%;
+}
 .row
 {
     display: flex;
@@ -53,6 +61,19 @@ html
     display: flex;
     flex-flow: column wrap;
     flex: 1 1 45%;
+}
+.card-group
+{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+}
+.card
+{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 20%;
+    text-align: center;
 }
 .flex-center
 {
@@ -134,4 +155,10 @@ html
     color: white;
     font-size: 1.25rem;
     line-height: 1.5rem;
+}
+.sub-title
+{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }

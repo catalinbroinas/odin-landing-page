@@ -70,10 +70,25 @@ html
 }
 .card
 {
+    min-width: 250px;
+    height: 100%;
     display: flex;
     flex-flow: column wrap;
     flex: 1 1 20%;
     text-align: center;
+}
+.card .player
+{
+    margin-bottom: 1rem;
+}
+.card .text
+{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+.card .text strong
+{
+    color: #2962FF;
 }
 .flex-center
 {

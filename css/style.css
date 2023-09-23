@@ -101,6 +101,13 @@ html
     align-items: flex-end;
     flex: 0 1 20%;
 }
+.footer
+{
+    display: block;
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #1F2937;
+}
 .flex-center
 {
     align-items: center;
@@ -249,9 +256,10 @@ html
     text-align: left;
     margin-bottom: 0.5rem;
 }
-.honor .text
-{
+.honor .text, 
+    .footer .text
+    {
     color: #E5E7E8;
     font-size: 1.25rem;
     font-weight: lighter;
-}
+    }
